@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            :root{
+                --bg-color:#ffffff;
+                --form-bg-color: powderblue;
+                --border-bg-color:brown;
+            }
+            html, body{
+                font: 400 15px/1.9 "Lato", sans-serif ;
+                background: url("partyphoto.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                flex-direction: column;
+                text-align: center;
+            }
+            form, .wrapper{
+                border-radius: 10px;
+                background: powderblue;
+                min-width: 50vw;
+                padding: 5vmin;
+                color: brown;
+            }
+            a, input[type=submit]{
+                display: block;
+                border: 1px solid brown;
+                margin: 1vmin 0;
+                text-decoration: none;
+                border-radius: 10px;
+                background: brown;
+                color: powderblue;
+                padding: 1vmin;
+            }
+            a:hover, input[type=submit]:hover{
+                color: brown;
+                background: powderblue;
+            }
+            h1, h2{
+                font: 250 15px/1 "Lato", sans-serif;
+                font-size: 40px;
+            }
+            h2{
+                font-size: 22px;
+            }
+            input, select{
+                min-width: 100%;
+                border: 1px solid powderblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "wrapper">
+            <header>
+                <h1>PARTY_MENU</h1>
+            </header>
+            <h2>Party Is Coming soon!</h2>
+            <div>
+                <a href = "bithday.php">Birthday Party</a>
+            </div>
+            <div>
+                <a href = "marrage.php">Marrage Party</a>
+            </div>
+        </div>
+    </body>
+</html>
